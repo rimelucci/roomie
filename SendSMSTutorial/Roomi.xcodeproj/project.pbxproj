@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1DBACA1F1D80C11800116BCD /* AddRoommate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBACA1E1D80C11800116BCD /* AddRoommate.swift */; };
+		1D44BEC41D8306B2009B3B29 /* Roommate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D44BEC31D8306B2009B3B29 /* Roommate.swift */; };
+		1D44BEC81D836A4C009B3B29 /* RoommatesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D44BEC71D836A4C009B3B29 /* RoommatesTableViewController.swift */; };
+		1D44BECA1D836C13009B3B29 /* RoommateEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D44BEC91D836C13009B3B29 /* RoommateEditViewController.swift */; };
 		1DF7B6331D7F3B1100E17DB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF7B6321D7F3B1100E17DB2 /* AppDelegate.swift */; };
 		1DF7B6351D7F3B1100E17DB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF7B6341D7F3B1100E17DB2 /* ViewController.swift */; };
 		1DF7B6381D7F3B1100E17DB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DF7B6361D7F3B1100E17DB2 /* Main.storyboard */; };
@@ -17,8 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1DBACA1E1D80C11800116BCD /* AddRoommate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRoommate.swift; sourceTree = "<group>"; };
-		1DF7B62F1D7F3B1000E17DB2 /* SendSMSTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendSMSTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D44BEC31D8306B2009B3B29 /* Roommate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Roommate.swift; sourceTree = "<group>"; };
+		1D44BEC71D836A4C009B3B29 /* RoommatesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoommatesTableViewController.swift; sourceTree = "<group>"; };
+		1D44BEC91D836C13009B3B29 /* RoommateEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoommateEditViewController.swift; sourceTree = "<group>"; };
+		1DF7B62F1D7F3B1000E17DB2 /* Roomi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roomi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF7B6321D7F3B1100E17DB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DF7B6341D7F3B1100E17DB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1DF7B6371D7F3B1100E17DB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -50,7 +54,7 @@
 		1DF7B6301D7F3B1000E17DB2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1DF7B62F1D7F3B1000E17DB2 /* SendSMSTutorial.app */,
+				1DF7B62F1D7F3B1000E17DB2 /* Roomi.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,7 +64,9 @@
 			children = (
 				1DF7B6321D7F3B1100E17DB2 /* AppDelegate.swift */,
 				1DF7B6341D7F3B1100E17DB2 /* ViewController.swift */,
-				1DBACA1E1D80C11800116BCD /* AddRoommate.swift */,
+				1D44BEC71D836A4C009B3B29 /* RoommatesTableViewController.swift */,
+				1D44BEC91D836C13009B3B29 /* RoommateEditViewController.swift */,
+				1D44BEC31D8306B2009B3B29 /* Roommate.swift */,
 				1DF7B6441D7F3DF200E17DB2 /* MessageComposer.swift */,
 				1DF7B6361D7F3B1100E17DB2 /* Main.storyboard */,
 				1DF7B6391D7F3B1100E17DB2 /* Assets.xcassets */,
@@ -73,9 +79,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1DF7B62E1D7F3B1000E17DB2 /* SendSMSTutorial */ = {
+		1DF7B62E1D7F3B1000E17DB2 /* Roomi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DF7B6411D7F3B1100E17DB2 /* Build configuration list for PBXNativeTarget "SendSMSTutorial" */;
+			buildConfigurationList = 1DF7B6411D7F3B1100E17DB2 /* Build configuration list for PBXNativeTarget "Roomi" */;
 			buildPhases = (
 				1DF7B62B1D7F3B1000E17DB2 /* Sources */,
 				1DF7B62C1D7F3B1000E17DB2 /* Frameworks */,
@@ -85,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = SendSMSTutorial;
+			name = Roomi;
 			productName = SendSMSTutorial;
-			productReference = 1DF7B62F1D7F3B1000E17DB2 /* SendSMSTutorial.app */;
+			productReference = 1DF7B62F1D7F3B1000E17DB2 /* Roomi.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,11 +108,11 @@
 				TargetAttributes = {
 					1DF7B62E1D7F3B1000E17DB2 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 96MNKNNWK3;
+						DevelopmentTeam = E7TPS5LD2H;
 					};
 				};
 			};
-			buildConfigurationList = 1DF7B62A1D7F3B1000E17DB2 /* Build configuration list for PBXProject "SendSMSTutorial" */;
+			buildConfigurationList = 1DF7B62A1D7F3B1000E17DB2 /* Build configuration list for PBXProject "Roomi" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -119,7 +125,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1DF7B62E1D7F3B1000E17DB2 /* SendSMSTutorial */,
+				1DF7B62E1D7F3B1000E17DB2 /* Roomi */,
 			);
 		};
 /* End PBXProject section */
@@ -143,7 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DF7B6451D7F3DF200E17DB2 /* MessageComposer.swift in Sources */,
-				1DBACA1F1D80C11800116BCD /* AddRoommate.swift in Sources */,
+				1D44BEC81D836A4C009B3B29 /* RoommatesTableViewController.swift in Sources */,
+				1D44BECA1D836C13009B3B29 /* RoommateEditViewController.swift in Sources */,
+				1D44BEC41D8306B2009B3B29 /* Roommate.swift in Sources */,
 				1DF7B6351D7F3B1100E17DB2 /* ViewController.swift in Sources */,
 				1DF7B6331D7F3B1100E17DB2 /* AppDelegate.swift in Sources */,
 			);
@@ -211,6 +219,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "85b30a09-8db9-4dba-8bee-82fc21231c05";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -234,7 +243,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -249,6 +259,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "85b30a09-8db9-4dba-8bee-82fc21231c05";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -262,8 +273,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SendSMSTutorial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.beamnow.SendSMSTutorial;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.getroomie.roomie;
+				PRODUCT_NAME = Roomi;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -276,8 +287,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SendSMSTutorial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.beamnow.SendSMSTutorial;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.getroomie.roomie;
+				PRODUCT_NAME = Roomi;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -285,7 +296,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DF7B62A1D7F3B1000E17DB2 /* Build configuration list for PBXProject "SendSMSTutorial" */ = {
+		1DF7B62A1D7F3B1000E17DB2 /* Build configuration list for PBXProject "Roomi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DF7B63F1D7F3B1100E17DB2 /* Debug */,
@@ -294,7 +305,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DF7B6411D7F3B1100E17DB2 /* Build configuration list for PBXNativeTarget "SendSMSTutorial" */ = {
+		1DF7B6411D7F3B1100E17DB2 /* Build configuration list for PBXNativeTarget "Roomi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DF7B6421D7F3B1100E17DB2 /* Debug */,
